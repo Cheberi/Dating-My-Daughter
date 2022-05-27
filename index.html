@@ -14,26 +14,26 @@
 <body>
 
 <div id="outside">
-<form id="survey-form" action="/my-handling-form-page" method="post">
+<form id="survey-form" action="form-page" method="post">
   <h1 id="title">Application for permission to date my daughter</h1>
   
   <fieldset>
     <legend>Personal Details</legend>
     <div>
       <label id="name-label" for="name">Name:</label>
-      <input type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
+      <input style="height: 20px;" type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
     <div>
       <label for="address-label">Address:</label>
-      <input type="Address" id="address" name="Address" placeholder="Enter address here">   </div>
+      <input  style="height: 20px;" type="Address" id="address" name="Address" placeholder="Enter address here">   </div>
     <div>
       <label id="email-label" for="Email">Email:</label>
-      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
+      <input  style="height: 20px;" type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
     <div>
       <label id="number-label" for="phone">Phone Number:</label>
-      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9">  </div>
+      <input  style="height: 20px;" type="number" id="number" name="user_name" placeholder="Enter no.." min="1" max="9">  </div>
     <div>
       <label id="iq-label" for="iq">IQ:</label>
-      <input type="number" id="iq" name="iq" placeholder="Enter IQ here">   </div>
+      <input  style="height: 20px;" type="number" id="iq" name="iq" placeholder="Enter IQ here">   </div>
 
     <div>
       <label for="Gender">Gender</label>
@@ -49,7 +49,7 @@
   </fieldset>
   <fieldset>
   <fieldset>
-    <label for="Gender">Check All That Apply</label>
+    <label for="Gender" style="color:black ;">Check All That Apply</label>
     <p>
       <input type="checkbox" name="tattoo" value="tattoo"> I have tattoos and/or piercings<br>
       <input type="checkbox" name="age" value="Car"> I am more than 2 years older than my daughter<br>
@@ -100,20 +100,16 @@
       <p> In 50 words or more explain why you want to date my daughter</p>
       <textarea style="width: 350px; height:150px;" id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
     <div>
-      <!-- <label for="msg">Please upload contact details for 2 references</label><br>
-      <textarea id="msg2" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
-    <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:
-        <input type="file" id="myfile" name="myfiles" multiple><br><br> -->
+    
   </fieldset>
 
   <fieldset>
-
-
-    <audio controls>
-      <source src="https://open.spotify.com/artist/3dXC1YPbnQPsfHPVkm1ipj" type="audio/mp3">
-      <source src="https://open.spotify.com/artist/3dXC1YPbnQPsfHPVkm1ipj" type="audio/mp3">
-      No audio support.
-      </audio> 
+    <p>Dedication song</p>
+    <video width="400" controls>
+      <source src="video/y2mate.com - can I call you baby  little girl cover song most romantic whatsapp status_480p (1).mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+   
   </fieldset>
 
   <div id="submitbutton">
